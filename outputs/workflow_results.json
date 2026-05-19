@@ -1,0 +1,161 @@
+[
+    {
+        "task_id": "T001",
+        "department": "Finance",
+        "task_type": "Validation",
+        "priority": "High",
+        "workflow_results": {
+            "field_validation": {
+                "is_valid": true,
+                "missing_fields": []
+            },
+            "content_validation": {
+                "agent": "Validation Agent",
+                "status": "needs_review",
+                "issues": [
+                    "Input mentions missing information."
+                ]
+            },
+            "summary": {
+                "agent": "Summarization Agent",
+                "summary": "Invoice amount is 1200 dollars and approval status is missing"
+            },
+            "structured_output": {
+                "agent": "Structured Output Agent",
+                "structured_output": {
+                    "task_id": "T001",
+                    "department": "Finance",
+                    "task_type": "Validation",
+                    "priority": "High",
+                    "business_action": "Review and process task based on priority."
+                }
+            }
+        }
+    },
+    {
+        "task_id": "T002",
+        "department": "HR",
+        "task_type": "Summarization",
+        "priority": "Medium",
+        "workflow_results": {
+            "field_validation": {
+                "is_valid": true,
+                "missing_fields": []
+            },
+            "content_validation": {
+                "agent": "Validation Agent",
+                "status": "passed",
+                "issues": []
+            },
+            "summary": {
+                "agent": "Summarization Agent",
+                "summary": "Employee onboarding document includes benefits, payroll setup, training schedule, and compliance steps"
+            },
+            "structured_output": {
+                "agent": "Structured Output Agent",
+                "structured_output": {
+                    "task_id": "T002",
+                    "department": "HR",
+                    "task_type": "Summarization",
+                    "priority": "Medium",
+                    "business_action": "Review and process task based on priority."
+                }
+            }
+        }
+    },
+    {
+        "task_id": "T003",
+        "department": "Sales",
+        "task_type": "Structured Output",
+        "priority": "High",
+        "workflow_results": {
+            "field_validation": {
+                "is_valid": true,
+                "missing_fields": []
+            },
+            "content_validation": {
+                "agent": "Validation Agent",
+                "status": "passed",
+                "issues": []
+            },
+            "summary": {
+                "agent": "Summarization Agent",
+                "summary": "Customer requested pricing details, product demo, and follow-up call next week"
+            },
+            "structured_output": {
+                "agent": "Structured Output Agent",
+                "structured_output": {
+                    "task_id": "T003",
+                    "department": "Sales",
+                    "task_type": "Structured Output",
+                    "priority": "High",
+                    "business_action": "Review and process task based on priority."
+                }
+            }
+        }
+    },
+    {
+        "task_id": "T004",
+        "department": "Operations",
+        "task_type": "Validation",
+        "priority": "Medium",
+        "workflow_results": {
+            "field_validation": {
+                "is_valid": true,
+                "missing_fields": []
+            },
+            "content_validation": {
+                "agent": "Validation Agent",
+                "status": "needs_review",
+                "issues": [
+                    "Input mentions missing information."
+                ]
+            },
+            "summary": {
+                "agent": "Summarization Agent",
+                "summary": "Shipment record has tracking number but missing delivery confirmation date"
+            },
+            "structured_output": {
+                "agent": "Structured Output Agent",
+                "structured_output": {
+                    "task_id": "T004",
+                    "department": "Operations",
+                    "task_type": "Validation",
+                    "priority": "Medium",
+                    "business_action": "Review and process task based on priority."
+                }
+            }
+        }
+    },
+    {
+        "task_id": "T005",
+        "department": "Support",
+        "task_type": "Summarization",
+        "priority": "High",
+        "workflow_results": {
+            "field_validation": {
+                "is_valid": true,
+                "missing_fields": []
+            },
+            "content_validation": {
+                "agent": "Validation Agent",
+                "status": "passed",
+                "issues": []
+            },
+            "summary": {
+                "agent": "Summarization Agent",
+                "summary": "Customer reported login issue, password reset failure, and requested urgent support"
+            },
+            "structured_output": {
+                "agent": "Structured Output Agent",
+                "structured_output": {
+                    "task_id": "T005",
+                    "department": "Support",
+                    "task_type": "Summarization",
+                    "priority": "High",
+                    "business_action": "Review and process task based on priority."
+                }
+            }
+        }
+    }
+]
