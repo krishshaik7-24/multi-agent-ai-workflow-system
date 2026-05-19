@@ -1,0 +1,6 @@
+langgraph
+crewai
+pandas
+pydantic
+python-dotenv
+rich
