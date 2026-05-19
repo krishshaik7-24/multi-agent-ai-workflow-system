@@ -1,0 +1,6 @@
+task_id,department,task_type,input_text,priority
+T001,Finance,Validation,"Invoice amount is 1200 dollars and approval status is missing",High
+T002,HR,Summarization,"Employee onboarding document includes benefits, payroll setup, training schedule, and compliance steps",Medium
+T003,Sales,Structured Output,"Customer requested pricing details, product demo, and follow-up call next week",High
+T004,Operations,Validation,"Shipment record has tracking number but missing delivery confirmation date",Medium
+T005,Support,Summarization,"Customer reported login issue, password reset failure, and requested urgent support",High
